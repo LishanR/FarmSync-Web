@@ -4,7 +4,7 @@ An innovative, data-driven decision support system designed specifically for Sri
 
 > **Note:** The application is currently under active development. Features and documentation are subject to change.
 
-![SmartAgro Logo](public/Logo.png)
+![SmartAgro Logo](public/Brand11.png)
 
 ## Project Overview
 
