@@ -9,12 +9,12 @@ import {
 	Lightbulb,
 	ArrowUp,
 } from "lucide-react";
-import vinuraImg from "/mem_pics/Sehan.jpg";
-import piranavanImg from "/mem_pics/Sehan.jpg";
+import vinuraImg from "/mem_pics/placeholder.jpg";
+import piranavanImg from "/mem_pics/placeholder.jpg";
 import sehanImg from "/mem_pics/Sehan.jpg";
 import lishanImg from "/mem_pics/Lishan.jpg";
 import niroshanImg from "/mem_pics/Niroshan.jpg";
-import sakiththiyanImg from "/mem_pics/Sehan.jpg";
+import sakiththiyanImg from "/mem_pics/Sakiththiyan.jpg";
 import { Button } from "@/components/ui/button.jsx";
 import NavigationBar from "@/NavigationBar";
 import Hero from "@/Hero.jsx";
@@ -165,14 +165,14 @@ function App() {
 						<TeamMemberCard
 							name="Vinura Imalka"
 							role="Main Backend Developer"
-							image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&h=400&fit=crop&auto=format&auto=compress"
-							// image={vinuraImg}
+							// image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&h=400&fit=crop&auto=format&auto=compress"
+							image={vinuraImg}
 						/>
 						<TeamMemberCard
 							name="Sivanesan Piranavan"
 							role="Backend Sub Developer"
-							image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&h=400&fit=crop&auto=format&auto=compress"
-							// image={piranavanImg}
+							// image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&h=400&fit=crop&auto=format&auto=compress"
+							image={piranavanImg}
 						/>
 						<TeamMemberCard
 							name="Sehan Henadeera"
@@ -192,8 +192,7 @@ function App() {
 						<TeamMemberCard
 							name="Magenthirarajah Sakiththiyan"
 							role="Machine Learning Developer"
-							image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&h=400&fit=crop&auto=format&auto=compress"
-							// image={sakiththiyanImg}
+							image={sakiththiyanImg}
 						/>
 					</div>
 				</div>
@@ -216,17 +215,10 @@ function App() {
 							more about how our platform can help you succeed.
 						</p>
 						<ContactUs />
-						{/* <Button
-							className="text-white bg-green-600 hover:bg-green-500 hover:border-black"
-							variant="primary"
-						>
-							<Send className="mr-2 h-4 w-4 inline" /> Contact Us
-						</Button> */}
 					</div>
 				</div>
 			</section>
 
-			{/* Back To Top Button */}
 			{/* Back To Top Button */}
 			<div
 				className={`fixed bottom-36 right-4 transition-all duration-300 ${
