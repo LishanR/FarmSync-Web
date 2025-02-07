@@ -3,7 +3,7 @@ import { Avatar, AvatarImage } from "@/Avatar.jsx";
 
 function TeamMemberCard({ name, role, image }) {
   return (
-    <Card className="border-none text-center">
+    <Card className="border-none text-center overflow-hidden">
       <CardHeader>
         <Avatar className="w-72 h-64 mx-auto ">
           <AvatarImage src={image} alt={name} className="object-cover w-full h-full"/>
