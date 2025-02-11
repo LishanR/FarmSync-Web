@@ -1,11 +1,12 @@
 import { Card, CardContent, CardHeader } from "@/Card.jsx";
 import { Avatar, AvatarImage } from "@/Avatar.jsx";
+import "./Avatar.css";
 
 function TeamMemberCard({ name, role, image }) {
   return (
     <Card className="border-none text-center overflow-hidden">
       <CardHeader>
-        <Avatar className="w-72 h-64 mx-auto ">
+        <Avatar className="avatar-image">
           <AvatarImage src={image} alt={name} className="object-cover w-full h-full"/>
         </Avatar>
       </CardHeader>

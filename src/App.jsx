@@ -10,7 +10,7 @@ import {
 	ArrowUp,
 } from "lucide-react";
 import vinuraImg from "/mem_pics/placeholder.jpg";
-import piranavanImg from "/mem_pics/placeholder.jpg";
+import piranavanImg from "/mem_pics/Piranavan.jpg";
 import sehanImg from "/mem_pics/Sehan.jpg";
 import lishanImg from "/mem_pics/Lishan.jpg";
 import niroshanImg from "/mem_pics/Niroshan.jpg";
@@ -155,7 +155,7 @@ function App() {
 			</section>
 
 			{/* Team Section */}
-			<section id="team" className="py-20 bg-green-50 ">
+			<section id="team" className="py-20 bg-green-50  ">
 				<div className="container mx-auto px-4">
 					<SectionHeader
 						title="Meet Our Team"
@@ -164,7 +164,7 @@ function App() {
 					<div className="grid md:grid-cols-3 gap-8">
 						<TeamMemberCard
 							name="Vinura Imalka"
-							role="Main Backend Developer"
+							role="Team Lead | Main Backend Developer"
 							// image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&h=400&fit=crop&auto=format&auto=compress"
 							image={vinuraImg}
 						/>
