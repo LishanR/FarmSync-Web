@@ -98,7 +98,7 @@ export default function ContactUs() {
         <a href="https://www.instagram.com/smartagro__?igsh=MXRneHVwc2U0MDV1cg==" >
           <Instagram className="text-[#ff0088] hover:scale-125 transition-all duration-300" />
         </a>
-        <a href="https://linkedin.com/in/smart-agro" >
+        <a href="https://www.linkedin.com/company/smartagro-official" >
           <Linkedin className="text-[#0077b5] hover:scale-125 transition-all duration-300" />
         </a>
         <a href="https://github.com/LishanR/SmartAgro-Web.git">
