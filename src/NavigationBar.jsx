@@ -7,9 +7,9 @@ function NavigationBar() {
 			<div className="flex items-center  ">
 				<a href="/">
 					<img
-						src="/favicon.ico"
+						src="/Logo.png"
 						alt="Logo"
-						className="w-8 h-8 mr-2"
+						className="w-12 h-12 mr-2"
 					/>
 				</a>
 				<div className="flex items-center mt-5">

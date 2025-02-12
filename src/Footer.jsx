@@ -7,7 +7,7 @@ function Footer() {
 				<img
 					src="/Logo.png"
 					alt="Logo"
-					className="w-8 h-8 flex justify-center items-center mx-auto mb-6 "
+					className="w-16 flex justify-center items-center mx-auto mb-2 "
 				/>
 				<p className="text-gray-400 flex justify-center text-sm sm:text-base">
 					<Copyright className="mr-1" />
