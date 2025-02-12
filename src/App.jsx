@@ -9,7 +9,7 @@ import {
 	Lightbulb,
 	ArrowUp,
 } from "lucide-react";
-import vinuraImg from "/mem_pics/placeholder.jpg";
+import vinuraImg from "/mem_pics/Vinura.jpg";
 import piranavanImg from "/mem_pics/Piranavan.jpg";
 import sehanImg from "/mem_pics/Sehan.jpg";
 import lishanImg from "/mem_pics/Lishan.jpg";
