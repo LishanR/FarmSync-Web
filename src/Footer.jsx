@@ -1,4 +1,4 @@
-import { Copyright, Heart } from "lucide-react";
+import { Copyright } from "lucide-react";
 function Footer() {
 	return (
 		<footer className="bg-black text-white py-6 max-w-none max-sm:text-sm max-sm:">
@@ -11,8 +11,7 @@ function Footer() {
 				/>
 				<p className="text-gray-400 flex justify-center text-sm sm:text-base">
 					<Copyright className="mr-1" />
-					2025 SmartAgro. Designed with <Heart className="mx-2 text-red-600" />{" "}
-					by SE - 50.
+					2025 SmartAgro. Designed and Developed by SE - 50.
 				</p>
 			</div>
 		</footer>
