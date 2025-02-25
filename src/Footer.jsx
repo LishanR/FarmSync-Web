@@ -11,7 +11,7 @@ function Footer() {
 				/>
 				<p className="text-gray-400 flex justify-center text-sm sm:text-base">
 					<Copyright className="mr-1" />
-					2025 SmartAgro. Designed and Developed by SE - 50.
+					2025 SmartAgro. Designed and Developed by SmartAgro team.
 				</p>
 			</div>
 		</footer>

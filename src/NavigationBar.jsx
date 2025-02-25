@@ -2,7 +2,7 @@ function NavigationBar() {
 	return (
 		<nav
 			id="nav"
-			className=" flex top-0 left-0 right-0 items-center justify-between p-16 h-40 z-50 transition-all duration-300 rounded-xl w-full bg-gradient-to-r from-green-100 to-green-50"
+			className=" flex top-0 left-0 right-0 items-center justify-between p-16 h-30 z-50 transition-all duration-300 rounded-xl w-full bg-gradient-to-r from-green-100 to-green-50"
 		>
 			<div className="flex items-center  ">
 				<a href="/">
