@@ -52,7 +52,7 @@ function App() {
 
 	return (
 		<div className="flex-row h-full w-full m-0 p-0 bg-[#FAFDF7] max-sm:text-balance max-sm:antialiased max-sm:overflow-x-hidden">
-			<div className="max-sm:hidden">
+			<div className="max-sm:hidden ">
 				<NavigationBar />
 			</div>
 			{/* Hero Section */}
@@ -221,7 +221,7 @@ function App() {
 
 			{/* Back To Top Button */}
 			<div
-				className={`fixed bottom-36 right-4 transition-all duration-300 ${
+				className={`fixed bottom-4 right-4 transition-all duration-300 ${
 					isScrolled ? "block" : "hidden"
 				} max-sm:w-2 max-sm:mr-8`}
 			>
