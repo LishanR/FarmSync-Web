@@ -4,7 +4,7 @@ import { Navigate } from "react-router-dom";
 
 function Hero() {
 	return (
-		<div id="hero" className="container w-full text-center">
+		<div id="hero" className="container w-full text-center pt-20">
 			<img
 				src="/Logo.png"
 				alt="Logo"
