@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator"
-import { Send, Instagram, Linkedin, Github } from "lucide-react";
+import { Send } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
 export default function ContactUs() {
@@ -93,18 +92,7 @@ export default function ContactUs() {
 					</form>
 				</CardContent>
 			</Card>
-      <Separator className ="mt-12 border-t-2 border-gray-300 w-[1000px]" />
-      <div className="flex gap-24 mt-10">
-        <a href="https://www.instagram.com/smartagro__?igsh=MXRneHVwc2U0MDV1cg==" >
-          <Instagram className="text-[#ff0088] hover:scale-125 transition-all duration-300" />
-        </a>
-        <a href="https://www.linkedin.com/company/smartagro-official" >
-          <Linkedin className="text-[#0077b5] hover:scale-125 transition-all duration-300" />
-        </a>
-        <a href="https://github.com/LishanR/SmartAgro-Web.git">
-          <Github className="text-black hover:scale-125 transition-all duration-300" />
-        </a>
-      </div>
+      
 		</section>
 	);
 }
