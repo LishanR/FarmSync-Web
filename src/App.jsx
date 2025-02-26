@@ -17,6 +17,7 @@ import niroshanImg from "/mem_pics/Niroshan.jpg";
 import sakiththiyanImg from "/mem_pics/Sakiththiyan.jpg";
 import { Button } from "@/components/ui/button.jsx";
 import NavigationBar from "@/NavigationBar";
+import NavPopup from "@/NavPopup";
 import Hero from "@/Hero.jsx";
 import SectionHeader from "@/SectionHeader.jsx";
 import FeatureCard from "@/FeatureCard.jsx";
@@ -24,6 +25,7 @@ import TeamMemberCard from "@/TeamMemberCard.jsx";
 import Footer from "@/Footer.jsx";
 import ContactUs from "@/ContactUs.jsx";
 import { useState, useEffect } from "react";
+import { Separator } from "@/components/ui/separator";
 
 import "./App.css";
 
@@ -49,11 +51,17 @@ function App() {
 			behavior: "smooth",
 		});
 	};
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+	const toggleMenu = () => {
+		setIsMenuOpen(!isMenuOpen);
+	};
 
 	return (
 		<div className="flex-row h-full w-full m-0 p-0 bg-[#FAFDF7] max-sm:text-balance max-sm:antialiased max-sm:overflow-x-hidden">
-			<div className="max-sm:hidden ">
-				<NavigationBar />
+			<div className=" ">
+				<NavigationBar onMenuClick={toggleMenu} />
+				<NavPopup isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
 			</div>
 			{/* Hero Section */}
 			<header className=" w-full bg-gradient-to-b from-green-100 to-green-50 py-20 flex items-center justify-center">
@@ -165,34 +173,40 @@ function App() {
 						<TeamMemberCard
 							name="Vinura Imalka"
 							role="Team Lead | Main Backend Developer"
-							// image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&h=400&fit=crop&auto=format&auto=compress"
 							image={vinuraImg}
+							linkedinProfile={"https://www.linkedin.com/in/vinuraimalka"}
 						/>
 						<TeamMemberCard
 							name="Sivanesan Piranavan"
 							role="Backend Sub Developer"
-							// image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&h=400&fit=crop&auto=format&auto=compress"
 							image={piranavanImg}
+							linkedinProfile={"https://www.linkedin.com/in/piranavansivanesan"}
 						/>
 						<TeamMemberCard
 							name="Sehan Henadeera"
 							role="Backend Developer - Database"
 							image={sehanImg}
+							linkedinProfile={"https://www.linkedin.com/in/sehanhenadeera/"}
 						/>
 						<TeamMemberCard
 							name="Lishan Weerasuriya"
 							role="Main Frontend Developer"
 							image={lishanImg}
+							linkedinProfile={"https://www.linkedin.com/in/lishanweerasuriya/"}
 						/>
 						<TeamMemberCard
 							name="Niroshan Selvaraj"
 							role="Software Architect | Frontend Sub Developer"
 							image={niroshanImg}
+							linkedinProfile={
+								"https://www.linkedin.com/in/niroshanselvaraj/"
+							}
 						/>
 						<TeamMemberCard
 							name="Magenthirarajah Sakiththiyan"
 							role="Machine Learning Developer"
 							image={sakiththiyanImg}
+							linkedinProfile={"https://www.linkedin.com/in/msakiththiyan06/"}
 						/>
 					</div>
 				</div>
@@ -215,6 +229,16 @@ function App() {
 							more about how our platform can help you succeed.
 						</p>
 						<ContactUs />
+						<Separator className="mt-4" />
+						<div className="mt-2 text-md">
+							<p>Reach out to us through:</p>
+							<a
+								href="mailto:smartagro.enquiries@gmail.com"
+								className="text-black font-semibold transition-all duration-200 hover:text-green-600"
+							>
+								smartagro.enquiries@gmail.com
+							</a>
+						</div>
 					</div>
 				</div>
 			</section>

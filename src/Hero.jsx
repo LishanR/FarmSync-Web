@@ -1,6 +1,4 @@
-// import { Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button.jsx";
-import { Navigate } from "react-router-dom";
 
 function Hero() {
 	return (
