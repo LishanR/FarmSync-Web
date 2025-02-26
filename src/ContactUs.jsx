@@ -14,13 +14,13 @@ export default function ContactUs() {
 
 		emailjs
 			.sendForm(
-        // import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
-        "service_xy5s2sc",
-        // import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-        "template_k0llzaf",
-        form.current,
+				// import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
+				"service_xy5s2sc",
+				// import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+				"template_k0llzaf",
+				form.current,
 				// import.meta.env.REACT_APP_EMAILJS_PUBLIC_KEY
-        "6Fr9OqS3tBxD_HOuh"
+				"6Fr9OqS3tBxD_HOuh"
 			)
 			.then(
 				(result) => {
@@ -92,7 +92,6 @@ export default function ContactUs() {
 					</form>
 				</CardContent>
 			</Card>
-      
 		</section>
 	);
 }
