@@ -21,13 +21,13 @@ function NavigationBar({ onMenuClick }) {
 						className="text-3xl font-bold text-green-600 mb-6 hover:text-green-600 cursor-pointer"
 						href="/"
 					>
-						Smart
+						Farm
 					</a>
 					<a
 						className="text-3xl font-bold text-gray-900 mb-6 hover:text-gray-900 cursor-pointer"
 						href="/"
 					>
-						Agro
+						Sync
 					</a>
 				</div>
 			</div>

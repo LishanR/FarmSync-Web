@@ -74,16 +74,16 @@ function App() {
 			>
 				<div className="max-w-3xl mx-auto text-center px-6">
 					<h1 className="text-4xl font-bold tracking-tight text-primary mb-6">
-						About SmartAgro
+						About FarmSync
 					</h1>
 					<p
 						className="text-gray-600 text-lg p-2 leading-relaxed max-w-prose mx-auto"
 						style={{ textAlign: "justify" }}
 					>
-						SmartAgro is an innovative, data-driven decision support system
+						FarmSync is an innovative, data-driven decision support system
 						designed specifically for Sri Lankan farmers. By leveraging
 						real-time data, machine learning, and a user-friendly interface,
-						SmartAgro empowers farmers to make informed decisions that maximize
+						FarmSync empowers farmers to make informed decisions that maximize
 						productivity, boost profitability, and promote sustainable
 						agricultural practices.
 					</p>

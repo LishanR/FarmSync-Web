@@ -10,8 +10,8 @@ function Hero() {
 			/>
 			{/* <Leaf className="w-12 h-12 text-green-600 mx-auto mb-6" /> */}
 			<div className="flex flex-row justify-center items-center mb-6">
-				<h1 className="text-5xl font-bold text-green-700 mb-6">Smart</h1>
-				<h1 className="text-5xl font-bold text-gray-900 mb-6">Agro</h1>
+				<h1 className="text-5xl font-bold text-green-700 mb-6">Farm</h1>
+				<h1 className="text-5xl font-bold text-gray-900 mb-6">Sync</h1>
 			</div>
 			<p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
 				Empowering Sri Lankan farmers with data-driven insights and tools for

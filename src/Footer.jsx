@@ -8,11 +8,11 @@ function Footer() {
 				<div className="flex-1 text-center mb-8 md:mb-0 flex flex-col items-center">
 					<div className="flex items-center space-x-3">
 						<img src="/Logo.png" alt="Logo" className="w-12 h-12" />
-						<h2 className="text-2xl font-bold">SmartAgro</h2>
+						<h2 className="text-2xl font-bold">FarmSync</h2>
 					</div>
 					<p className="text-gray-600 mt-3 max-w-md">
 						Optimizing farming with data-driven insights and automation for
-						profitability for higher productivity and profitability.
+						sustainable growth, profitability, and higher productivity.
 					</p>
 				</div>
 
@@ -140,7 +140,7 @@ function Footer() {
 			<div className="text-center text-gray-500 text-sm mt-12">
 				<p className="flex justify-center items-center">
 					<Copyright className="mr-2" />
-					2025 SmartAgro. All rights reserved.
+					2025 FarmSync. All rights reserved.
 				</p>
 			</div>
 		</footer>
