@@ -252,7 +252,7 @@ function App() {
 						<AnimatedCard>
 							<TeamMemberCard
 								name="Niroshan Selvaraj"
-								role="Software Architect | Frontend Sub Developer"
+								role="Frontend Sub Developer"
 								image={niroshanImg}
 								linkedinProfile={
 									"https://www.linkedin.com/in/niroshanselvaraj/"
