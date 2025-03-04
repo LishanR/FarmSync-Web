@@ -19,19 +19,19 @@ function Footer() {
 				{/* Social Media Links Section (Middle) */}
 				<div className="flex-1 flex flex-row md:flex-col items-center justify-center gap-10 md:gap-8 mt-8 md:mt-0 w-full">
 					<a
-						href="https://www.instagram.com/smartagro__?igsh=MXRneHVwc2U0MDV1cg=="
+						href="https://www.instagram.com/farmsync.lk/"
 						className="hover:scale-125 transition-all duration-300"
 					>
 						<Instagram className="text-[#ff0088]" />
 					</a>
 					<a
-						href="https://www.linkedin.com/company/smartagro-official"
+						href="https://www.linkedin.com/company/farmsynclk"
 						className="hover:scale-125 transition-all duration-300"
 					>
 						<Linkedin className="text-[#0077b5]" />
 					</a>
 					<a
-						href="https://github.com/LishanR/SmartAgro-Web.git"
+						href="https://github.com/LishanR/FarmSync-Web.git"
 						className="hover:scale-125 transition-all duration-300"
 					>
 						<Github className="text-gray-800" />
