@@ -8,6 +8,7 @@ import {
 	ShoppingCart,
 	Lightbulb,
 	ArrowUp,
+	CheckCircle2,
 } from "lucide-react";
 import vinuraImg from "/mem_pics/Vinura.jpg";
 import piranavanImg from "/mem_pics/Piranavan.jpg";
@@ -28,6 +29,8 @@ import { useState, useEffect, useRef } from "react";
 import { Separator } from "@/components/ui/separator";
 import { motion, useInView } from "framer-motion";
 import { AnimatedCard } from "@/AnimatedCards.jsx";
+import { Badge } from "@/components/ui/badge";
+import { PricingPlan } from "@/PricingPlan.jsx";
 
 import "./App.css";
 
@@ -78,7 +81,7 @@ function App() {
 					<Hero />
 				</motion.header>
 			</header>
-
+			{/* About Us Section */}
 			<section
 				id="about"
 				className="py-20 bg-gradient-to-b from-white to-green-50"
@@ -107,6 +110,7 @@ function App() {
 				</AnimatedCard>
 			</section>
 
+			{/* Why Choose Us Section */}
 			<section className="py-20 bg-gradient-to-b from-white to-green-50 flex items-center justify-center">
 				<div className="container ">
 					<AnimatedCard>
@@ -199,6 +203,44 @@ function App() {
 								description="Our platform helps farmers find temporary workers for farming tasks, while laborers can discover job opportunities that match their skills and availability."
 							/>
 						</AnimatedCard>
+					</div>
+				</div>
+			</section>
+
+			{/* Pricing Section */}
+			<section id="pricing" className="py-20 bg-white">
+				<div className="container mx-auto px-4">
+					<SectionHeader
+						title="Plans & Pricing"
+						subtitle="Choose the plan that works best for you"
+					/>
+					<div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-12">
+						<PricingPlan
+							title="Free Plan"
+							price="Rs. 0.00/month"
+							features={[
+								"Limited price forecasting",
+								"Crop recommendations",
+								"Planting scheduling",
+							]}
+						/>
+						<div className="relative">
+							<div className="absolute top-2 left-[23rem] transform -translate-x-1/2">
+								<Badge variant="border border-green-900 text-green-900 hover:bg-green-900 hover:text-white transition">Recommended</Badge>
+							</div>
+							<PricingPlan
+								title="Premium Plan"
+								price="Rs. 2,999.00/month"
+								isPremium
+								features={[
+									"Advanced price forecasting",
+									"Real-time market updates",
+									"Priority support",
+									"Disease prediction",
+									"Labor management tools",
+								]}
+							/>
+						</div>
 					</div>
 				</div>
 			</section>
