@@ -48,7 +48,7 @@ function Footer() {
 						<ul className="space-y-4 flex flex-col items-center md:items-start">
 							<li>
 								<a
-									href="#"
+									href="#about"
 									className="text-gray-600 hover:text-green-500 hover:decoration-2 transition-all duration-300"
 								>
 									About
