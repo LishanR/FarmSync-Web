@@ -225,8 +225,13 @@ function App() {
 							]}
 						/>
 						<div className="relative">
-							<div className="absolute top-2 left-[23rem] transform -translate-x-1/2">
+							{/* <div className="absolute top-2 left-[23rem] transform -translate-x-1/2">
 								<Badge variant="border border-green-900 text-green-900 hover:bg-green-900 hover:text-white transition">Recommended</Badge>
+							</div> */}
+							<div className="absolute top-3 right-4 z-10">
+								<Badge className="bg-white border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white transition-colors">
+									Recommended
+								</Badge>
 							</div>
 							<PricingPlan
 								title="Premium Plan"
