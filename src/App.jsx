@@ -215,37 +215,40 @@ function App() {
 						subtitle="Choose the plan that works best for you"
 					/>
 					<div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-12">
-						<PricingPlan
-							title="Free Plan"
-							price="Rs. 0.00/month"
-							features={[
-								"Limited price forecasting",
-								"Crop recommendations",
-								"Planting scheduling",
-							]}
-						/>
-						<div className="relative">
-							{/* <div className="absolute top-2 left-[23rem] transform -translate-x-1/2">
-								<Badge variant="border border-green-900 text-green-900 hover:bg-green-900 hover:text-white transition">Recommended</Badge>
-							</div> */}
-							<div className="absolute top-3 right-4 z-10">
-								<Badge className="bg-white border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white transition-colors">
-									Recommended
-								</Badge>
-							</div>
-							<PricingPlan
-								title="Premium Plan"
-								price="Rs. 2,999.00/month"
-								isPremium
-								features={[
-									"Advanced price forecasting",
-									"Real-time market updates",
-									"Priority support",
-									"Disease prediction",
-									"Labor management tools",
-								]}
-							/>
-						</div>
+						<AnimatedCard>
+              <PricingPlan
+                title="Free Plan"
+                price="Rs. 0.00/month"
+                features={[
+                  "Limited price forecasting",
+                  "Crop recommendations",
+                  "Planting scheduling",
+                ]}
+              />
+            </AnimatedCard>
+						<AnimatedCard>
+              <div className="relative">
+                <AnimatedCard>
+                  <div className="absolute top-3 right-4 z-10">
+                    <Badge className="bg-white border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white transition-colors">
+                      Recommended
+                    </Badge>
+                  </div>
+                </AnimatedCard>
+                <PricingPlan
+                  title="Premium Plan"
+                  price="Rs. 2,999.00/month"
+                  isPremium
+                  features={[
+                    "Advanced price forecasting",
+                    "Real-time market updates",
+                    "Priority support",
+                    "Disease prediction",
+                    "Labor management tools",
+                  ]}
+                />
+              </div>
+            </AnimatedCard>
 					</div>
 				</div>
 			</section>
