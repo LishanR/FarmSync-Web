@@ -15,9 +15,9 @@ export default function ContactUs() {
 		emailjs
 			.sendForm(
 				// import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
-				"service_xy5s2sc",
+				"service_3ie1zdl",
 				// import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-				"template_k0llzaf",
+				"template_6xuey7y",
 				form.current,
 				// import.meta.env.REACT_APP_EMAILJS_PUBLIC_KEY
 				"6Fr9OqS3tBxD_HOuh"
