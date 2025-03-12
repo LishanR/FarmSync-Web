@@ -48,6 +48,15 @@ function NavPopup({ isOpen, onClose }) {
 							Features
 						</a>
 					</li>
+          <li>
+						<a
+							className="text-green-600 hover:text-green-500 transition-all cursor-pointer"
+							href="#pricing"
+							onClick={onClose}
+						>
+							Plans & Pricing
+						</a>
+					</li>
 					<li>
 						<a
 							className="text-green-600 hover:text-green-500 transition-all cursor-pointer"

@@ -42,6 +42,12 @@ function NavigationBar({ onMenuClick }) {
 				</a>
 				<a
 					className="text-green-600 hover:text-green-500 transition-all cursor-pointer"
+					href="#pricing"
+				>
+					Plans & Pricing
+				</a>
+				<a
+					className="text-green-600 hover:text-green-500 transition-all cursor-pointer"
 					href="#team"
 				>
 					Team
