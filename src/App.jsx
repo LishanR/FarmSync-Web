@@ -231,7 +231,7 @@ function App() {
                 <AnimatedCard>
                   <div className="absolute top-3 right-4 z-10">
                     <Badge className="bg-white border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white transition-colors">
-                      Recommended
+                      Best Value
                     </Badge>
                   </div>
                 </AnimatedCard>
