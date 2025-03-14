@@ -4,7 +4,7 @@ An innovative, data-driven decision support system designed specifically for Sri
 
 > **Note:** The application is currently under active development. Features and documentation are subject to change.
 
-![FarmSYnc Logo](public/FARMSYNC.png)
+![FarmSYnc Logo](public/FARMSYNC-Brand.png)
 
 ## Project Overview
 
