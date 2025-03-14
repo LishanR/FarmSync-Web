@@ -1,14 +1,14 @@
-# SmartAgro
+# FarmSync
 
-An innovative, data-driven decision support system designed specifically for Sri Lankan farmers. SmartAgro empowers farmers to make informed decisions that maximize productivity, boost profitability, and promote sustainable agricultural practices.
+An innovative, data-driven decision support system designed specifically for Sri Lankan farmers. FarmSync empowers farmers to make informed decisions that maximize productivity, boost profitability, and promote sustainable agricultural practices.
 
 > **Note:** The application is currently under active development. Features and documentation are subject to change.
 
-![SmartAgro Logo](public/Brand11.png)
+![FarmSYnc Logo](public/FARMSYNC.png)
 
 ## Project Overview
 
-SmartAgro is revolutionizing Sri Lankan agriculture through technology integration. By combining real-time data analytics, machine learning, and an intuitive user interface, we provide farmers with the tools they need to optimize their farming operations and adopt sustainable practices.
+FarmSync is revolutionizing Sri Lankan agriculture through technology integration. By combining real-time data analytics, machine learning, and an intuitive user interface, we provide farmers with the tools they need to optimize their farming operations and adopt sustainable practices.
 
 ## 🌟 Key Features
 
