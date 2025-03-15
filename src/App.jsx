@@ -345,7 +345,7 @@ function App() {
 							<div className="mt-2 text-md">
 								<p>Reach out to us through:</p>
 								<a
-									href="mailto:smartagro.enquiries@gmail.com"
+									href="mailto:farmsync.enquiries@gmail.com"
 									className="text-black font-semibold transition-all duration-200 hover:text-green-600"
 								>
 									farmsync.enquiries@gmail.com
